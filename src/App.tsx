@@ -6,8 +6,8 @@ function App() {
   // HACER QUE PUEDA VER MAS DETALLADO LA INFORMACIÓN DE CADA ELEMENTO
 
   return (
-    <>
-      <nav className="flex flex-row justify-between my-2">
+    <section className="m-5">
+      <nav className="flex flex-row justify-between my-5">
         <ul>
           <Link to={"/"}>Home</Link>
         </ul>
@@ -16,7 +16,7 @@ function App() {
         </ul>
       </nav>
       <Outlet />
-    </>
+    </section>
   );
 }
 

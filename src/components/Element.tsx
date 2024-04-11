@@ -8,6 +8,7 @@ export default function Element() {
   return (
     <section>
       <h1>{element.name}</h1>
+      <h1>{element.category}</h1>
     </section>
   );
 }
